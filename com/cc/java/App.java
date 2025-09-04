@@ -6,13 +6,12 @@ public class App {
     {
         
         // Variablen deklarieren
-
         String food = "noch kein Burger gewählt";
         String drink = "noch kein Getränk gewählt";
         String itemNumStr;
         String flag;
 
-        // System.out.println(food);  2
+        // System.out.println(food);
         // System.out.println(drink); 
 
         // Bestelldialog 1 : Ausgabe
@@ -44,7 +43,7 @@ public class App {
         // Entscheidung Getränk dazu?
         System.out.println("-------------------------------");
         System.out.println("Möchten Sie ein Getränk dazu bestellen? (j/n)");
-        flag = System.console().readLine("(j/n)? :");
+       flag = System.console().readLine("(j/n)? :");
         // System.out.println(flag);
 
       	 // Getränkeasuwahl
